@@ -5,7 +5,7 @@ public class ReverseOfAString {
     public static void main(String[] args) {
 
 
-        String str = "Selenium", rev = "";
+        String str = "Welcome To Java", rev = "";
 
         for (int i=str.length()-1; i>=0; i--)
         {

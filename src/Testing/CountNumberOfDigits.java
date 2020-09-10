@@ -16,5 +16,14 @@ public class CountNumberOfDigits {
 
         System.out.println("Sum of digits are " +sum);
 
+        int count =0;
+        int num1=12345;
+        while (num1 > 0)
+        {
+            num1 = num1/10;
+            count++;
+        }
+        System.out.println(count);
+
     }
 }
