@@ -24,10 +24,10 @@ public class BoxingConcept {
         System.out.println("in String");
     }
 
-//    public  void showNumber(Number o)
-//    {
-//        System.out.println("in Number");
-//    }
+    public  void showNumber(Number o)
+    {
+        System.out.println("in Number");
+    }
 
     public void showNumber(float o)
     {

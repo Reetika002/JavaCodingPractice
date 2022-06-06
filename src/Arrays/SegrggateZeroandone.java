@@ -38,6 +38,7 @@ public class SegrggateZeroandone {
 
         Arrays.fill(arr, arr.length - sum, arr.length, 1);
         Arrays.fill(arr, 0, arr.length - sum, 0);
+
         System.out.println(Arrays.toString(arr));
 
     }

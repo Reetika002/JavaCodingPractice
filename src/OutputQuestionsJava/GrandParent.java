@@ -20,7 +20,7 @@ class Child extends Parent
 {
     public void Print()
     {
-//        super.Print();
+        super.Print();
         System.out.println("Child's Print()");
     }
 }

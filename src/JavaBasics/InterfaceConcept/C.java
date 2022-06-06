@@ -23,6 +23,10 @@ public class C implements I1,I2 {
         I2 obj = new C();
         obj.Reetika();
 
+        I1 obj1 = new C();
+        obj1.ABC();
+
+
 
 
 

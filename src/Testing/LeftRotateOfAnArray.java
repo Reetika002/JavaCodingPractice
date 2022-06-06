@@ -32,7 +32,7 @@ public class LeftRotateOfAnArray {
     public static int []  LeftRotate(int[] arr, int r)
     {
         int j;
-        for(int i = 0 ; i < r; i ++ )
+        for(int i = 0 ; i < r; i++ )
         {
             int temp = arr[0];
 

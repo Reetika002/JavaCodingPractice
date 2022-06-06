@@ -8,8 +8,11 @@ public class B extends A {
 
     B()
     {
+
         super(10);
+
         System.out.println("Child class constructor");
+
     }
 
     public static void main(String[] args) {

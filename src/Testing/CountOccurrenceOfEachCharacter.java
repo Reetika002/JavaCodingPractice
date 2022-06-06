@@ -35,6 +35,12 @@ public class CountOccurrenceOfEachCharacter {
         {
 
                 System.out.println(entry.getKey() +":"+ entry.getValue());
+                if (entry.getValue() > 1)
+                {
+//                    charCountMap.remove(entry.getKey());
+                    System.out.println(entry.getKey()+":"+ entry.getValue());
+                }
+
 
         }
 
@@ -42,6 +48,6 @@ public class CountOccurrenceOfEachCharacter {
 
     public static void main(String[] args) {
         characterCount("reetika");
-        characterCount("shashank");
+//        characterCount("shashank");
     }
 }

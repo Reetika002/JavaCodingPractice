@@ -9,7 +9,7 @@ public class ReverseOfAString {
 
         for (int i=str.length()-1; i>=0; i--)
         {
-            rev = rev + str.charAt(i);
+            rev = rev +str.charAt(i);
 
         }
         System.out.println(rev);

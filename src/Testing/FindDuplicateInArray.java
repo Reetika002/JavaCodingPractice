@@ -18,7 +18,7 @@ public class FindDuplicateInArray {
             }
         }
 
-       // usinf hashmap
+       // using hashmap
         Map<String,Integer> storeMap = new HashMap<String, Integer>();
         for(String name : names)
         {

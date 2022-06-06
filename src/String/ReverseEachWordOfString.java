@@ -1,7 +1,7 @@
 package String;
 
-public class ReverseEachWordOfString {
-
+public class  ReverseEachWordOfString {
+//    emocleW oT avaJ
     public static void main(String[] args) {
         String str = "Welcome To Java";
         String reverseString = "";

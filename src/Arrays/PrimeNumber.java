@@ -8,7 +8,7 @@ public class PrimeNumber {
         {
             return false;
         }
-        for (int i = 2; i < num; i++)
+        for (int i = 2; i < num; i++) // can also write for(int i =2; i <=Math.sqrt(num); i++)
         {
             if (num % i == 0)
             {
@@ -20,7 +20,7 @@ public class PrimeNumber {
 
     public static void main(String[] args) {
 
-        System.out.println(IsPrimeNumber(4));
-        System.out.println(IsPrimeNumber(7));
+        System.out.println(IsPrimeNumber(9));
+        System.out.println(IsPrimeNumber(2));
     }
 }
